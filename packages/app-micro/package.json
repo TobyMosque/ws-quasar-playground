@@ -1,0 +1,21 @@
+{
+  "name": "app-micro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5001 --strictPort",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "quasar": "workspace:*",
+    "@quasar/extras": "workspace:*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@quasar/vite-plugin": "^1.6.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}

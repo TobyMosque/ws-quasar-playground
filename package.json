@@ -1,0 +1,10 @@
+{
+  "name": "ws-quasar-playground",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "host": "pnpm --filter app-host run",
+    "micro": "pnpm --filter app-micro run",
+    "dev": "pnpm --parallel --filter app-host --filter app-micro run dev"
+  }
+}
