@@ -5,6 +5,7 @@
   "scripts": {
     "host": "pnpm --filter app-host run",
     "micro": "pnpm --filter app-micro run",
-    "dev": "pnpm --parallel --filter app-host --filter app-micro run dev"
+    "dev": "pnpm --parallel --filter app-host --filter app-micro run dev",
+    "postinstall": "pnpm --filter quasar build"
   }
 }
