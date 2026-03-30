@@ -7,6 +7,13 @@ export default defineConfig({
     port: 5001,
     cors: true
   },
+  build: {
+    lib: {
+      entry: 'src/main.ts',
+      name: 'AppMicro',
+      fileName: 'app-micro'
+    }
+  },
   plugins: [
     vue({
       template: { transformAssetUrls },

@@ -3,6 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "./dist/app-micro.umd.cjs",
+  "module": "./dist/app-micro.js",
+  "exports": {
+    ".": {
+      "import": "./dist/app-micro.js",
+      "require": "./dist/app-micro.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite --port 5001 --strictPort",
     "build": "vite build"

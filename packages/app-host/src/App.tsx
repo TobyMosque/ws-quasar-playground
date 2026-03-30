@@ -32,9 +32,15 @@ const App: Component = () => {
         <p>This is a SolidJS orchestrator with Pico.css. Below is the Vue 3 + Quasar Web Component:</p>
         
         <article>
-          <header>Quasar MFE</header>
+          <header>Quasar MFE 1</header>
           {/* We mount the custom element right here */}
-          <app-micro dark={isDark()}></app-micro>
+          <app-micro id="quasar-mfe1" dark={isDark()}></app-micro>
+        </article>
+
+        <article>
+          <header>Quasar MFE 2</header>
+          {/* We mount the custom element right here */}
+          <app-micro id="quasar-mfe2" dark={isDark()}></app-micro>
         </article>
       </section>
     </main>
